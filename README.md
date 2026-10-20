@@ -32,9 +32,10 @@ This script expects a Matrix-format FinalReport generated with the following Gen
 git clone [https://github.com/](https://github.com/)tkyscs/finalreport2vcf.git
 cd finalreport2vcf
 pip install -r requirements.txt
+```
 
 ## Usage
-```sh
+```bash
 python finalreport_to_vcf.py \
   --manifest ASA-24v1-0_A1.csv \
   --refseq /path/to/Homo_sapiens_assembly19.fasta \
